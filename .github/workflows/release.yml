@@ -91,10 +91,4 @@ jobs:
             2. Open `chrome://extensions`
             3. Enable Developer Mode
             4. Load unpacked → select unzipped folder
-
-            ## Features
-            - On-page loop controls: `[` start, `]` end, `\` toggle
-            - Auto-save loops per video
-            - Popup controls backup
           files: youtube-loop-v${{ steps.pkg.outputs.version }}.zip
-          draft: false
