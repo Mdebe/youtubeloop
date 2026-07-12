@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  width: 360px;
+  min-height: 400px;
+  font-family: system-ui, sans-serif;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.popup-container {
+  padding: 16px;
+}
+
+.nav {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.nav a {
+  color: #999;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.nav a.nav-active {
+  background: #333;
+  color: #fff;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.loop-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.time-display {
+  padding: 12px;
+  background: #2a2a2a;
+  border-radius: 6px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.btn:hover:not(:disabled) {
+  background: #404040;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: #cc0000;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #e60000;
+}
+
+.btn-danger {
+  background: #444;
+}
+
+.active-loop {
+  padding: 10px;
+  background: #003300;
+  border: 1px solid #0f0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 13px;
+  color: #0f0;
+}

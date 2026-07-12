@@ -1,0 +1,38 @@
+:root {
+  --primary: #4F46E5;
+  --text: #111827;
+  --text-muted: #6B7280;
+  --border: #E5E7EB;
+  --card-bg: #FFFFFF;
+  --nav-bg: #F9FAFB;
+  --switch-bg: #D1D5DB;
+}
+
+:root.dark {
+  --text: #F9FAFB;
+  --text-muted: #9CA3AF;
+  --border: #374151;
+  --card-bg: #1F2937;
+  --nav-bg: #111827;
+  --switch-bg: #4B5563;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--card-bg);
+  color: var(--text);
+}
+
+select {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--card-bg);
+  color: var(--text);
+}

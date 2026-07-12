@@ -1,0 +1,46 @@
+#yt-loop-panel-root {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 9999;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.yt-loop-panel {
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+
+.yt-loop-header {
+  padding: 12px 16px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yt-loop-header h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.yt-loop-status {
+  font-size: 12px;
+  color: #16a34a;
+}
+
+.yt-loop-body {
+  padding: 16px;
+  font-size: 13px;
+  color: #333;
+}
+
+.yt-loop-body p {
+  margin: 8px 0;
+}
